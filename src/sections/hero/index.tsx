@@ -1,3 +1,6 @@
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
+
 type NavItem = {
   label: string;
   href: string;
@@ -15,12 +18,16 @@ function HeroLink({ href, label }: NavItem) {
 }
 
 export default function Hero() {
-  const navItems: NavItem[] = [
-    { label: "Sobre Nosotros", href: "#about-us" },
-    { label: "Oportunidades", href: "#investment" },
-    { label: "Proyectos", href: "#projects" },
-    { label: "Contacto", href: "#contact" },
-  ];
+  const { t } = useTranslation();
+  const navItems: NavItem[] = useMemo(
+    () => [
+      { label: t("hero.nav.about"), href: "#about-us" },
+      { label: t("hero.nav.investment"), href: "#investment" },
+      { label: t("hero.nav.projects"), href: "#projects" },
+      { label: t("hero.nav.contact"), href: "#contact" },
+    ],
+    [t],
+  );
 
   return (
     <section className="relative isolate w-full overflow-hidden bg-black text-white">
@@ -47,21 +54,19 @@ export default function Hero() {
           >
             <img
               src="/logo.png"
-              alt="Mallorca Gestora"
+              alt={t("hero.logoAlt")}
               className="h-16 w-auto select-none sm:h-28 lg:h-40 filter-[brightness(0)_invert(1)]"
               draggable={false}
             />
           </a>
 
           <p className="max-w-152 rounded-lg bg-black/25 px-5 py-5 text-center text-sm font-medium leading-relaxed text-white/92 backdrop-blur-sm sm:max-w-4xl sm:px-8 sm:py-6 sm:text-lg lg:text-xl">
-            Una oficina privada de inversión inmobiliaria enfocada en la
-            creación de valor, la ejecución disciplinada de proyectos y la
-            gestión estratégica de activos.
+            {t("hero.description")}
           </p>
 
           <nav
             className="flex w-full flex-col items-stretch justify-center gap-3 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center"
-            aria-label="Navegación"
+            aria-label={t("hero.aria.nav")}
           >
             {navItems.map((item) => (
               <HeroLink key={item.label} {...item} />

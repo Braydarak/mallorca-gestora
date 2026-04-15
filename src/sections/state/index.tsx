@@ -1,3 +1,6 @@
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
+
 type MarketPointProps = {
   title: string;
   description: string;
@@ -25,6 +28,33 @@ function MarketPoint({ title, description, index }: MarketPointProps) {
 }
 
 export default function State() {
+  const { t } = useTranslation();
+  const points = useMemo<MarketPointProps[]>(
+    () => [
+      {
+        index: "1",
+        title: t("stateSection.points.demand.title"),
+        description: t("stateSection.points.demand.description"),
+      },
+      {
+        index: "2",
+        title: t("stateSection.points.supply.title"),
+        description: t("stateSection.points.supply.description"),
+      },
+      {
+        index: "3",
+        title: t("stateSection.points.growth.title"),
+        description: t("stateSection.points.growth.description"),
+      },
+      {
+        index: "4",
+        title: t("stateSection.points.environment.title"),
+        description: t("stateSection.points.environment.description"),
+      },
+    ],
+    [t],
+  );
+
   return (
     <section
       id="market"
@@ -40,35 +70,22 @@ export default function State() {
         <div className="mx-auto max-w-5xl">
           <div className="flex flex-col items-center gap-4 text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Mercado inmobiliario español
+              {t("stateSection.title")}
             </h2>
             <p className="max-w-3xl text-base leading-relaxed text-white/90 sm:text-lg">
-              Factores clave que impulsan la creación de valor a largo plazo en
-              España, con un enfoque estratégico en las Islas Baleares.
+              {t("stateSection.description")}
             </p>
           </div>
 
           <div className="mt-10 grid gap-6 lg:mt-14 lg:grid-cols-2">
-            <MarketPoint
-              index="1"
-              title="Alta demanda"
-              description="Demanda fuerte y sostenida de compradores nacionales e internacionales, especialmente en ubicaciones prime y costeras."
-            />
-            <MarketPoint
-              index="2"
-              title="Oferta limitada"
-              description="La disponibilidad de suelo restringida y las limitaciones regulatorias generan una escasez estructural, impulsando el crecimiento del valor."
-            />
-            <MarketPoint
-              index="3"
-              title="Crecimiento del capital"
-              description="El inmobiliario se mantiene como una clase de activo resiliente, preservando el capital y aumentando su valor de forma consistente en el tiempo."
-            />
-            <MarketPoint
-              index="4"
-              title="Entorno de inversión atractivo"
-              description="España ofrece un mercado estable y atractivo. Aunque Baleares es un foco clave, las oportunidades en el resto del país permiten diversificar y acceder a activos con alto potencial."
-            />
+            {points.map((point) => (
+              <MarketPoint
+                key={point.index}
+                index={point.index}
+                title={point.title}
+                description={point.description}
+              />
+            ))}
           </div>
         </div>
       </div>

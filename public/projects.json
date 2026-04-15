@@ -1,81 +1,207 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "SANTA CATALINA",
-            "description": "Desarrollo y reposicionamiento de un edificio céntrico en Palma, en el muy demandado barrio de Santa Catalina, una de las zonas residenciales y de estilo de vida más dinámicas y consolidadas de la ciudad. El proyecto se centra en la adquisición y transformación del 80% del activo, desbloqueando su valor mediante optimización arquitectónica y un posicionamiento residencial de alta gama, orientado tanto a la demanda local como a compradores internacionales.",
-            "image": "/projects/1.jpg",
-            "total_investment": "8.200.000",
-            "acquisition_cost": "8.200.000",
-            "construction_total": "8.200.000",
-            "sale_total": "11.100.000",
-            "total_profit": "2.900.000"
+  "projects": [
+    {
+      "id": 1,
+      "name": "SANTA CATALINA",
+      "description": "Desarrollo y reposicionamiento de un edificio céntrico en Palma, en el muy demandado barrio de Santa Catalina, una de las zonas residenciales y de estilo de vida más dinámicas y consolidadas de la ciudad. El proyecto se centra en la adquisición y transformación del 80% del activo, desbloqueando su valor mediante optimización arquitectónica y un posicionamiento residencial de alta gama, orientado tanto a la demanda local como a compradores internacionales.",
+      "image": "/projects/1.jpg",
+      "total_investment": "8.200.000",
+      "acquisition_cost": "8.200.000",
+      "construction_total": "8.200.000",
+      "sale_total": "11.100.000",
+      "total_profit": "2.900.000",
+      "translations": {
+        "es": {
+          "name": "SANTA CATALINA",
+          "description": "Desarrollo y reposicionamiento de un edificio céntrico en Palma, en el muy demandado barrio de Santa Catalina, una de las zonas residenciales y de estilo de vida más dinámicas y consolidadas de la ciudad. El proyecto se centra en la adquisición y transformación del 80% del activo, desbloqueando su valor mediante optimización arquitectónica y un posicionamiento residencial de alta gama, orientado tanto a la demanda local como a compradores internacionales."
         },
-        {
-            "id": 2,
-            "name": "SON VIDA",
-            "description": "Adquisición y reposicionamiento de un activo residencial terminado en Son Vida, una exclusiva zona residencial junto a Palma y una de las ubicaciones más prestigiosas de Mallorca. El proyecto consiste en optimizar un edificio existente compuesto por 6 apartamentos, plazas de aparcamiento y trasteros, mejorando su posicionamiento de mercado mediante gestión estratégica del activo y su reventa en un mercado de lujo de alta demanda.",
-            "image": "/projects/2.jpg",
-            "acquisition_cost": "6.800.000",
-            "construction_total": "1.500.000",
-            "total_investment": "8.300.000",
-            "sale_total": "10.500.000",
-            "total_profit": "2.200.000"
+        "en": {
+          "name": "SANTA CATALINA",
+          "description": "Development and repositioning of a central building in Palma, in the highly sought-after Santa Catalina district, one of the city's most dynamic and established residential and lifestyle areas. The project focuses on acquiring and transforming 80% of the asset, unlocking value through architectural optimization and premium residential positioning aimed at both local demand and international buyers."
         },
-                {
-            "id": 3,
-            "name": "VALLDEMOSA",
-            "description": "Desarrollo de un proyecto residencial premium compuesto por 4 villas de lujo en Valldemossa, un entorno natural único con fuerte atractivo internacional y oportunidades de desarrollo limitadas. El proyecto está diseñado para entregar viviendas unifamiliares de alta gama integradas en el paisaje, orientadas a compradores con alto poder adquisitivo que buscan privacidad, exclusividad y un estilo de vida mediterráneo de calidad.",
-            "image": "/projects/2.jpg",
-            "acquisition_cost": "7.800.000",
-            "construction_total": "1.500.000",
-            "total_investment": "8.300.000",
-            "sale_total": "11.600.000",
-            "total_profit": "2.300.000"
+        "ca": {
+          "name": "SANTA CATALINA",
+          "description": "Desenvolupament i reposicionament d'un edifici cèntric a Palma, al molt demandat barri de Santa Catalina, una de les zones residencials i d'estil de vida més dinàmiques i consolidades de la ciutat. El projecte se centra en l'adquisició i transformació del 80% de l'actiu, desbloquejant-ne el valor mitjançant optimització arquitectònica i un posicionament residencial d'alta gamma, orientat tant a la demanda local com a compradors internacionals."
         },
-        {
-            "id": 4,
-            "name": "PUERTO POLLENSA",
-            "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda.",
-            "image": "/projects/1.jpg",
-            "total_investment": "9.600.000",
-            "acquisition_cost": "5.000.000",
-            "construction_total": "4.600.000",
-            "sale_total": "13.400.000",
-            "total_profit": "3.800.000"
-        },
-        {
-            "id": 5,
-            "name": "CALA ROMÁNTICA",
-            "description": "Desarrollo residencial de gran escala basado en la reestructuración de una urbanización parcialmente construida en Cala Romántica, una zona costera con alto potencial de crecimiento. El proyecto se centra en redefinir el esquema inicial hacia un producto residencial de mayor valor, transformando 179 unidades adosadas en aproximadamente 90 viviendas premium, complementadas por un área comercial y de ocio.",
-            "image": "/projects/1.jpg",
-            "total_investment": "3.700.000",
-            "acquisition_cost": "2.500.000",
-            "construction_total": "1.200.000",
-            "sale_total": "4.500.000",
-            "total_profit": "800.000"
-        },
-        {
-            "id": 6,
-            "name": "SON SERRA DE MARINA - SA CABANETA",
-            "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda.",
-            "image": "/projects/1.jpg",
-            "total_investment": "9.600.000",
-            "acquisition_cost": "5.000.000",
-            "construction_total": "4.600.000",
-            "sale_total": "13.400.000",
-            "total_profit": "3.800.000"
-        },
-        {
-            "id": 7,
-            "name": "MADRID",
-            "description": "Desarrollo de un parque logístico-industrial mediante la adquisición y consolidación de suelo con licencia en una ubicación estratégica en Madrid. El proyecto se centra en la urbanización y desarrollo completos del activo, capturando la significativa brecha de valor entre el coste de adquisición del suelo y los precios de mercado.",
-            "image": "/projects/2.jpg",
-            "acquisition_cost": "5.000.000",
-            "construction_total": "10.000.000",
-            "total_investment": "15.000.000",
-            "sale_total": "21.000.000",
-            "total_profit": "6.000.000"
+        "de": {
+          "name": "SANTA CATALINA",
+          "description": "Entwicklung und Neupositionierung eines zentral gelegenen Gebäudes in Palma, im stark nachgefragten Viertel Santa Catalina, einer der dynamischsten und etabliertesten Wohn- und Lifestyle-Lagen der Stadt. Das Projekt konzentriert sich auf den Erwerb und die Umgestaltung von 80% des Assets, um durch architektonische Optimierung und eine hochwertige Wohnpositionierung Wert zu erschließen, ausgerichtet auf lokale Nachfrage und internationale Käufer."
         }
-    ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "SON VIDA",
+      "description": "Adquisición y reposicionamiento de un activo residencial terminado en Son Vida, una exclusiva zona residencial junto a Palma y una de las ubicaciones más prestigiosas de Mallorca. El proyecto consiste en optimizar un edificio existente compuesto por 6 apartamentos, plazas de aparcamiento y trasteros, mejorando su posicionamiento de mercado mediante gestión estratégica del activo y su reventa en un mercado de lujo de alta demanda.",
+      "image": "/projects/2.jpg",
+      "acquisition_cost": "6.800.000",
+      "construction_total": "1.500.000",
+      "total_investment": "8.300.000",
+      "sale_total": "10.500.000",
+      "total_profit": "2.200.000",
+      "translations": {
+        "es": {
+          "name": "SON VIDA",
+          "description": "Adquisición y reposicionamiento de un activo residencial terminado en Son Vida, una exclusiva zona residencial junto a Palma y una de las ubicaciones más prestigiosas de Mallorca. El proyecto consiste en optimizar un edificio existente compuesto por 6 apartamentos, plazas de aparcamiento y trasteros, mejorando su posicionamiento de mercado mediante gestión estratégica del activo y su reventa en un mercado de lujo de alta demanda."
+        },
+        "en": {
+          "name": "SON VIDA",
+          "description": "Acquisition and repositioning of a completed residential asset in Son Vida, an exclusive residential area next to Palma and one of Mallorca's most prestigious locations. The project consists of optimizing an existing building with 6 apartments, parking spaces, and storage units, improving its market positioning through strategic asset management and resale in a high-demand luxury market."
+        },
+        "ca": {
+          "name": "SON VIDA",
+          "description": "Adquisició i reposicionament d'un actiu residencial acabat a Son Vida, una zona residencial exclusiva al costat de Palma i una de les ubicacions més prestigioses de Mallorca. El projecte consisteix a optimitzar un edifici existent compost per 6 apartaments, places d'aparcament i trasters, millorant-ne el posicionament de mercat mitjançant gestió estratègica de l'actiu i la seva revenda en un mercat de luxe d'alta demanda."
+        },
+        "de": {
+          "name": "SON VIDA",
+          "description": "Erwerb und Neupositionierung eines fertiggestellten Wohn-Assets in Son Vida, einer exklusiven Wohnlage bei Palma und einer der renommiertesten Standorte Mallorcas. Das Projekt umfasst die Optimierung eines bestehenden Gebäudes mit 6 Apartments, Stellplätzen und Abstellräumen sowie die Verbesserung der Marktposition durch strategisches Asset-Management und Wiederverkauf in einem stark nachgefragten Luxusmarkt."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "VALLDEMOSA",
+      "description": "Desarrollo de un proyecto residencial premium compuesto por 4 villas de lujo en Valldemossa, un entorno natural único con fuerte atractivo internacional y oportunidades de desarrollo limitadas. El proyecto está diseñado para entregar viviendas unifamiliares de alta gama integradas en el paisaje, orientadas a compradores con alto poder adquisitivo que buscan privacidad, exclusividad y un estilo de vida mediterráneo de calidad.",
+      "image": "/projects/2.jpg",
+      "acquisition_cost": "7.800.000",
+      "construction_total": "1.500.000",
+      "total_investment": "8.300.000",
+      "sale_total": "11.600.000",
+      "total_profit": "2.300.000",
+      "translations": {
+        "es": {
+          "name": "VALLDEMOSA",
+          "description": "Desarrollo de un proyecto residencial premium compuesto por 4 villas de lujo en Valldemossa, un entorno natural único con fuerte atractivo internacional y oportunidades de desarrollo limitadas. El proyecto está diseñado para entregar viviendas unifamiliares de alta gama integradas en el paisaje, orientadas a compradores con alto poder adquisitivo que buscan privacidad, exclusividad y un estilo de vida mediterráneo de calidad."
+        },
+        "en": {
+          "name": "VALLDEMOSA",
+          "description": "Development of a premium residential project consisting of 4 luxury villas in Valldemossa, a unique natural setting with strong international appeal and limited development opportunities. The project is designed to deliver high-end detached homes integrated into the landscape, targeting high-net-worth buyers seeking privacy, exclusivity, and a high-quality Mediterranean lifestyle."
+        },
+        "ca": {
+          "name": "VALLDEMOSA",
+          "description": "Desenvolupament d'un projecte residencial premium format per 4 viles de luxe a Valldemossa, un entorn natural únic amb fort atractiu internacional i oportunitats de desenvolupament limitades. El projecte està dissenyat per lliurar habitatges unifamiliars d'alta gamma integrats al paisatge, orientats a compradors amb alt poder adquisitiu que busquen privacitat, exclusivitat i un estil de vida mediterrani de qualitat."
+        },
+        "de": {
+          "name": "VALLDEMOSA",
+          "description": "Entwicklung eines Premium-Wohnprojekts mit 4 Luxusvillen in Valldemossa, einem einzigartigen Naturumfeld mit starker internationaler Anziehungskraft und begrenzten Entwicklungsmöglichkeiten. Das Projekt ist darauf ausgelegt, hochwertige Einfamilienhäuser zu schaffen, die in die Landschaft integriert sind, und richtet sich an vermögende Käufer, die Privatsphäre, Exklusivität und einen hochwertigen mediterranen Lebensstil suchen."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "PUERTO POLLENSA",
+      "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda.",
+      "image": "/projects/1.jpg",
+      "total_investment": "9.600.000",
+      "acquisition_cost": "5.000.000",
+      "construction_total": "4.600.000",
+      "sale_total": "13.400.000",
+      "total_profit": "3.800.000",
+      "translations": {
+        "es": {
+          "name": "PUERTO POLLENSA",
+          "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda."
+        },
+        "en": {
+          "name": "PUERTO POLLENSA",
+          "description": "Acquisition and transformation of the seafront Hotel Galeón in Puerto Pollensa, one of Mallorca's most established coastal destinations. The project involves repositioning the asset through a change of use to residential, converting approximately 2,000 m2 into high-value apartments, leveraging its privileged seafront location and strong demand."
+        },
+        "ca": {
+          "name": "PUERTO POLLENSA",
+          "description": "Adquisició i transformació de l'hotel en primera línia de mar Hotel Galeón, situat a Puerto Pollensa, una de les destinacions costaneres més consolidades de Mallorca. El projecte consisteix a reposicionar l'actiu mitjançant un canvi d'ús a residencial, convertint aproximadament 2.000 m2 en apartaments d'alt valor, aprofitant la seva ubicació privilegiada davant del mar i la forta demanda."
+        },
+        "de": {
+          "name": "PUERTO POLLENSA",
+          "description": "Erwerb und Umwandlung des direkt am Meer gelegenen Hotels Galeón in Puerto Pollensa, einem der etabliertesten Küstenziele Mallorcas. Das Projekt sieht die Neupositionierung des Assets durch eine Nutzungsänderung zu Wohnen vor und die Umwandlung von rund 2.000 m2 in hochwertige Apartments, wobei die privilegierte Lage direkt am Meer und die starke Nachfrage genutzt werden."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "CALA ROMÁNTICA",
+      "description": "Desarrollo residencial de gran escala basado en la reestructuración de una urbanización parcialmente construida en Cala Romántica, una zona costera con alto potencial de crecimiento. El proyecto se centra en redefinir el esquema inicial hacia un producto residencial de mayor valor, transformando 179 unidades adosadas en aproximadamente 90 viviendas premium, complementadas por un área comercial y de ocio.",
+      "image": "/projects/1.jpg",
+      "total_investment": "3.700.000",
+      "acquisition_cost": "2.500.000",
+      "construction_total": "1.200.000",
+      "sale_total": "4.500.000",
+      "total_profit": "800.000",
+      "translations": {
+        "es": {
+          "name": "CALA ROMÁNTICA",
+          "description": "Desarrollo residencial de gran escala basado en la reestructuración de una urbanización parcialmente construida en Cala Romántica, una zona costera con alto potencial de crecimiento. El proyecto se centra en redefinir el esquema inicial hacia un producto residencial de mayor valor, transformando 179 unidades adosadas en aproximadamente 90 viviendas premium, complementadas por un área comercial y de ocio."
+        },
+        "en": {
+          "name": "CALA ROMÁNTICA",
+          "description": "Large-scale residential development based on restructuring a partially built urbanization in Cala Romántica, a coastal area with high growth potential. The project focuses on redefining the initial scheme into a higher-value residential product, transforming 179 townhouse units into approximately 90 premium homes, complemented by a commercial and leisure area."
+        },
+        "ca": {
+          "name": "CALA ROMÁNTICA",
+          "description": "Desenvolupament residencial de gran escala basat en la reestructuració d'una urbanització parcialment construïda a Cala Romántica, una zona costanera amb alt potencial de creixement. El projecte se centra a redefinir l'esquema inicial cap a un producte residencial de més valor, transformant 179 unitats adossades en aproximadament 90 habitatges premium, complementats per una àrea comercial i d'oci."
+        },
+        "de": {
+          "name": "CALA ROMÁNTICA",
+          "description": "Großangelegte Wohnentwicklung auf Basis der Umstrukturierung einer teilweise errichteten Wohnanlage in Cala Romántica, einer Küstenlage mit hohem Wachstumspotenzial. Das Projekt konzentriert sich darauf, das ursprüngliche Konzept in ein höherwertiges Wohnprodukt zu überführen und 179 Reihenhauseinheiten in etwa 90 Premium-Wohnungen umzuwandeln, ergänzt durch einen Gewerbe- und Freizeitbereich."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "SON SERRA DE MARINA - SA CABANETA",
+      "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda.",
+      "image": "/projects/1.jpg",
+      "total_investment": "9.600.000",
+      "acquisition_cost": "5.000.000",
+      "construction_total": "4.600.000",
+      "sale_total": "13.400.000",
+      "total_profit": "3.800.000",
+      "translations": {
+        "es": {
+          "name": "SON SERRA DE MARINA - SA CABANETA",
+          "description": "Adquisición y transformación del hotel en primera línea de mar Hotel Galeón, ubicado en Puerto Pollensa, uno de los destinos costeros más consolidados de Mallorca. El proyecto consiste en reposicionar el activo mediante un cambio de uso a residencial, convirtiendo aproximadamente 2.000 m² en apartamentos de alto valor, aprovechando su ubicación privilegiada frente al mar y la fuerte demanda."
+        },
+        "en": {
+          "name": "SON SERRA DE MARINA - SA CABANETA",
+          "description": "Acquisition and transformation of the seafront Hotel Galeón in Puerto Pollensa, one of Mallorca's most established coastal destinations. The project involves repositioning the asset through a change of use to residential, converting approximately 2,000 m2 into high-value apartments, leveraging its privileged seafront location and strong demand."
+        },
+        "ca": {
+          "name": "SON SERRA DE MARINA - SA CABANETA",
+          "description": "Adquisició i transformació de l'hotel en primera línia de mar Hotel Galeón, situat a Puerto Pollensa, una de les destinacions costaneres més consolidades de Mallorca. El projecte consisteix a reposicionar l'actiu mitjançant un canvi d'ús a residencial, convertint aproximadament 2.000 m2 en apartaments d'alt valor, aprofitant la seva ubicació privilegiada davant del mar i la forta demanda."
+        },
+        "de": {
+          "name": "SON SERRA DE MARINA - SA CABANETA",
+          "description": "Erwerb und Umwandlung des direkt am Meer gelegenen Hotels Galeón in Puerto Pollensa, einem der etabliertesten Küstenziele Mallorcas. Das Projekt sieht die Neupositionierung des Assets durch eine Nutzungsänderung zu Wohnen vor und die Umwandlung von rund 2.000 m2 in hochwertige Apartments, wobei die privilegierte Lage direkt am Meer und die starke Nachfrage genutzt werden."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "MADRID",
+      "description": "Desarrollo de un parque logístico-industrial mediante la adquisición y consolidación de suelo con licencia en una ubicación estratégica en Madrid. El proyecto se centra en la urbanización y desarrollo completos del activo, capturando la significativa brecha de valor entre el coste de adquisición del suelo y los precios de mercado.",
+      "image": "/projects/2.jpg",
+      "acquisition_cost": "5.000.000",
+      "construction_total": "10.000.000",
+      "total_investment": "15.000.000",
+      "sale_total": "21.000.000",
+      "total_profit": "6.000.000",
+      "translations": {
+        "es": {
+          "name": "MADRID",
+          "description": "Desarrollo de un parque logístico-industrial mediante la adquisición y consolidación de suelo con licencia en una ubicación estratégica en Madrid. El proyecto se centra en la urbanización y desarrollo completos del activo, capturando la significativa brecha de valor entre el coste de adquisición del suelo y los precios de mercado."
+        },
+        "en": {
+          "name": "MADRID",
+          "description": "Development of a logistics-industrial park through the acquisition and consolidation of licensed land in a strategic location in Madrid. The project focuses on full urbanization and development of the asset, capturing the significant value gap between land acquisition costs and market prices."
+        },
+        "ca": {
+          "name": "MADRID",
+          "description": "Desenvolupament d'un parc logístic-industrial mitjançant l'adquisició i consolidació de sòl amb llicència en una ubicació estratègica a Madrid. El projecte se centra en la urbanització i desenvolupament complets de l'actiu, capturant la bretxa significativa de valor entre el cost d'adquisició del sòl i els preus de mercat."
+        },
+        "de": {
+          "name": "MADRID",
+          "description": "Entwicklung eines Logistik- und Industrieparks durch den Erwerb und die Konsolidierung von baureifem Grundstück in strategischer Lage in Madrid. Das Projekt konzentriert sich auf die vollständige Erschließung und Entwicklung des Assets und nutzt die erhebliche Wertlücke zwischen den Grundstückserwerbskosten und den Marktpreisen."
+        }
+      }
+    }
+  ]
 }

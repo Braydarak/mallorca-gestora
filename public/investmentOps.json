@@ -12,13 +12,47 @@
       "options": [
         {
           "name": "Valor de venta",
-          "price": "1.800.000"
+          "price": "1.800.000",
+          "translations": {
+            "es": "Valor de venta",
+            "en": "Sale value",
+            "ca": "Valor de venda",
+            "de": "Verkaufswert"
+          }
         },
         {
           "name": "Ingresos anuales por alquiler",
-          "price": "150.000"
+          "price": "150.000",
+          "translations": {
+            "es": "Ingresos anuales por alquiler",
+            "en": "Annual rental income",
+            "ca": "Ingressos anuals per lloguer",
+            "de": "Jährliche Mieteinnahmen"
+          }
         }
-      ]
+      ],
+      "translations": {
+        "es": {
+          "name": "PETRA",
+          "description": "Rehabilitación de un edificio plurifamiliar para transformarlo en un concepto de coliving de 20 habitaciones ubicado en Petra (Mallorca), un municipio tradicional de interior con fuerte identidad, baja densidad urbanística y un atractivo residencial en crecimiento. El proyecto se centra en optimizar el activo existente mediante un rediseño arquitectónico y una distribución eficiente de los espacios, creando un producto residencial de alta demanda alineado con las tendencias actuales de vivienda.",
+          "location": "C/ SOL 9"
+        },
+        "en": {
+          "name": "PETRA",
+          "description": "Renovation of a multi-family building to convert it into a 20-room coliving concept located in Petra (Mallorca), a traditional inland town with a strong identity, low urban density, and growing residential appeal. The project focuses on optimizing the existing asset through architectural redesign and an efficient layout, creating a high-demand residential product aligned with current housing trends.",
+          "location": "C/ SOL 9"
+        },
+        "ca": {
+          "name": "PETRA",
+          "description": "Rehabilitació d’un edifici plurifamiliar per transformar-lo en un concepte de coliving de 20 habitacions ubicat a Petra (Mallorca), un municipi tradicional d’interior amb una identitat forta, baixa densitat urbanística i un atractiu residencial en creixement. El projecte se centra a optimitzar l’actiu existent mitjançant un redisseny arquitectònic i una distribució eficient dels espais, creant un producte residencial d’alta demanda alineat amb les tendències actuals d’habitatge.",
+          "location": "C/ SOL 9"
+        },
+        "de": {
+          "name": "PETRA",
+          "description": "Sanierung eines Mehrfamiliengebäudes, das zu einem Coliving-Konzept mit 20 Zimmern in Petra (Mallorca) umgebaut wird – einer traditionellen Ortschaft im Inselinneren mit starker Identität, niedriger Bebauungsdichte und wachsender Wohnattraktivität. Das Projekt zielt darauf ab, den bestehenden Bestand durch architektonische Neugestaltung und eine effiziente Raumaufteilung zu optimieren und so ein stark nachgefragtes Wohnprodukt im Einklang mit aktuellen Wohntrends zu schaffen.",
+          "location": "C/ SOL 9"
+        }
+      }
     },
     {
       "id": 2,
@@ -32,10 +66,38 @@
       "options": [
         {
           "name": "Valor de salida estimado",
-          "price": "1.800.000"
+          "price": "1.800.000",
+          "translations": {
+            "es": "Valor de salida estimado",
+            "en": "Estimated exit value",
+            "ca": "Valor de sortida estimat",
+            "de": "Geschätzter Exit-Wert"
+          }
         }
       ],
-      "total_profit": "810.000"
+      "total_profit": "810.000",
+      "translations": {
+        "es": {
+          "name": "SANTA MARGARITA",
+          "description": "Finalización y legalización de un edificio residencial plurifamiliar ubicado en Santa Margalida (Mallorca), en un entorno urbano consolidado con demanda estable durante todo el año y una sólida infraestructura local. El proyecto consiste en terminar y adaptar una estructura existente para convertirla en un activo residencial plenamente conforme a normativa, con un total de 8 unidades, optimizando la eficiencia de la distribución y asegurando el cumplimiento regulatorio para desbloquear todo su valor de mercado.",
+          "location": "C/CLAVET 33"
+        },
+        "en": {
+          "name": "SANTA MARGARITA",
+          "description": "Completion and legalization of a multi-family residential building located in Santa Margalida (Mallorca), within a consolidated urban setting with stable year-round demand and solid local infrastructure. The project involves finishing and adapting an existing structure to convert it into a fully compliant residential asset with a total of 8 units, optimizing layout efficiency and ensuring regulatory compliance to unlock its full market value.",
+          "location": "C/CLAVET 33"
+        },
+        "ca": {
+          "name": "SANTA MARGARITA",
+          "description": "Finalització i legalització d’un edifici residencial plurifamiliar situat a Santa Margalida (Mallorca), en un entorn urbà consolidat amb demanda estable durant tot l’any i una sòlida infraestructura local. El projecte consisteix a acabar i adaptar una estructura existent per convertir-la en un actiu residencial totalment conforme a normativa, amb un total de 8 unitats, optimitzant l’eficiència de la distribució i assegurant el compliment regulatori per desbloquejar tot el seu valor de mercat.",
+          "location": "C/CLAVET 33"
+        },
+        "de": {
+          "name": "SANTA MARGARITA",
+          "description": "Fertigstellung und Legalisierung eines Mehrfamilienwohngebäudes in Santa Margalida (Mallorca) in einem etablierten städtischen Umfeld mit stabiler Ganzjahresnachfrage und solider lokaler Infrastruktur. Das Projekt umfasst die Fertigstellung und Anpassung einer bestehenden Struktur, um daraus ein vollständig regelkonformes Wohnobjekt mit insgesamt 8 Einheiten zu machen, die Grundrisseffizienz zu optimieren und die Einhaltung der Vorschriften sicherzustellen, um das volle Marktpotenzial zu realisieren.",
+          "location": "C/CLAVET 33"
+        }
+      }
     },
     {
       "id": 3,
@@ -49,10 +111,38 @@
       "options": [
         {
           "name": "Valor de salida estimado",
-          "price": "12.000.000"
+          "price": "12.000.000",
+          "translations": {
+            "es": "Valor de salida estimado",
+            "en": "Estimated exit value",
+            "ca": "Valor de sortida estimat",
+            "de": "Geschätzter Exit-Wert"
+          }
         }
       ],
-      "total_profit": "3.500.000"
+      "total_profit": "3.500.000",
+      "translations": {
+        "es": {
+          "name": "CALA MAYOR",
+          "description": "Oportunidad de reurbanización en Cala Major, una zona costera de alta demanda cercana a Palma y con acceso directo al litoral. El activo consiste en un edificio existente sobre una parcela urbana con gran potencial de reposicionamiento. El proyecto plantea la demolición del edificio actual y el desarrollo de un nuevo esquema residencial, con varias configuraciones posibles que van de 5 a 10 unidades según la estrategia final.",
+          "location": "C/MIQUEL ROSSELLÓ I ALEMANY 17"
+        },
+        "en": {
+          "name": "CALA MAYOR",
+          "description": "Redevelopment opportunity in Cala Major, a high-demand coastal area close to Palma with direct access to the shoreline. The asset consists of an existing building on an urban plot with significant repositioning potential. The project contemplates demolishing the current building and developing a new residential scheme, with several possible configurations ranging from 5 to 10 units depending on the final strategy.",
+          "location": "C/MIQUEL ROSSELLÓ I ALEMANY 17"
+        },
+        "ca": {
+          "name": "CALA MAYOR",
+          "description": "Oportunitat de reurbanització a Cala Major, una zona costanera d’alta demanda a prop de Palma i amb accés directe al litoral. L’actiu consisteix en un edifici existent sobre una parcel·la urbana amb un gran potencial de reposicionament. El projecte planteja l’enderroc de l’edifici actual i el desenvolupament d’un nou esquema residencial, amb diverses configuracions possibles que van de 5 a 10 unitats segons l’estratègia final.",
+          "location": "C/MIQUEL ROSSELLÓ I ALEMANY 17"
+        },
+        "de": {
+          "name": "CALA MAYOR",
+          "description": "Reentwicklungschance in Cala Major, einer stark nachgefragten Küstenlage nahe Palma mit direktem Zugang zur Uferzone. Das Objekt umfasst ein bestehendes Gebäude auf einem städtischen Grundstück mit großem Potenzial zur Neupositionierung. Das Projekt sieht den Abriss des aktuellen Gebäudes und die Entwicklung eines neuen Wohnkonzepts vor, mit mehreren möglichen Konfigurationen von 5 bis 10 Einheiten – abhängig von der finalen Strategie.",
+          "location": "C/MIQUEL ROSSELLÓ I ALEMANY 17"
+        }
+      }
     },
     {
       "id": 4,
@@ -66,10 +156,38 @@
       "options": [
         {
           "name": "Valor de salida estimado",
-          "price": "3.800.000"
+          "price": "3.800.000",
+          "translations": {
+            "es": "Valor de salida estimado",
+            "en": "Estimated exit value",
+            "ca": "Valor de sortida estimat",
+            "de": "Geschätzter Exit-Wert"
+          }
         }
       ],
-      "total_profit": "850.000"
+      "total_profit": "850.000",
+      "translations": {
+        "es": {
+          "name": "SANTANYÍ",
+          "description": "Desarrollo de un edificio residencial plurifamiliar compuesto por dos bloques, que incluye 9 unidades residenciales y un local comercial, ubicado en Santanyí, una localidad consolidada con actividad durante todo el año y una fuerte demanda residencial. El proyecto consiste en completar y reactivar un activo parcialmente construido, desbloqueando todo su potencial mediante el desarrollo y el posicionamiento en un entorno urbano consolidado.",
+          "location": "C/LLANERAS 37"
+        },
+        "en": {
+          "name": "SANTANYÍ",
+          "description": "Development of a multi-family residential building consisting of two blocks, including 9 residential units and a commercial premises, located in Santanyí, an established town with year-round activity and strong residential demand. The project involves completing and reactivating a partially built asset, unlocking its full potential through development and positioning within a consolidated urban environment.",
+          "location": "C/LLANERAS 37"
+        },
+        "ca": {
+          "name": "SANTANYÍ",
+          "description": "Desenvolupament d’un edifici residencial plurifamiliar compost per dos blocs, que inclou 9 unitats residencials i un local comercial, ubicat a Santanyí, una localitat consolidada amb activitat durant tot l’any i una forta demanda residencial. El projecte consisteix a completar i reactivar un actiu parcialment construït, desbloquejant tot el seu potencial mitjançant el desenvolupament i el posicionament en un entorn urbà consolidat.",
+          "location": "C/LLANERAS 37"
+        },
+        "de": {
+          "name": "SANTANYÍ",
+          "description": "Entwicklung eines Mehrfamilienwohngebäudes aus zwei Baukörpern mit 9 Wohneinheiten und einer Gewerbeeinheit in Santanyí, einer etablierten Ortschaft mit ganzjähriger Aktivität und hoher Wohnnachfrage. Das Projekt umfasst die Fertigstellung und Reaktivierung eines teilweise errichteten Objekts, um sein volles Potenzial durch Weiterentwicklung und Positionierung in einem konsolidierten urbanen Umfeld zu erschließen.",
+          "location": "C/LLANERAS 37"
+        }
+      }
     },
     {
       "id": 5,
@@ -82,10 +200,38 @@
       "options": [
         {
           "name": "Valor de salida estimado",
-          "price": "1.500.000"
+          "price": "1.500.000",
+          "translations": {
+            "es": "Valor de salida estimado",
+            "en": "Estimated exit value",
+            "ca": "Valor de sortida estimat",
+            "de": "Geschätzter Exit-Wert"
+          }
         }
       ],
-      "total_profit": "300.000"
+      "total_profit": "300.000",
+      "translations": {
+        "es": {
+          "name": "SON SERVERA",
+          "description": "Adquisición de un activo residencial en Son Servera, consistente en un edificio plurifamiliar en una fase de desarrollo paralizada. Ubicada en una zona residencial consolidada con demanda estable, la oportunidad se centra en el reposicionamiento y la reventa tras la estabilización del activo. El proyecto se basa en la adquisición y posterior venta del activo, capitalizando ineficiencias de precio y el reposicionamiento en mercado. La estrategia se enfoca en desbloquear valor mediante una mejor comercialización y el momento de salida, sin necesidad de obras adicionales de desarrollo.",
+          "location": "C/CAN PUIG 41"
+        },
+        "en": {
+          "name": "SON SERVERA",
+          "description": "Acquisition of a residential asset in Son Servera consisting of a multi-family building in a stalled development phase. Located in an established residential area with stable demand, the opportunity focuses on repositioning and resale after stabilizing the asset. The project is based on acquiring and subsequently selling the property, capitalizing on pricing inefficiencies and market repositioning. The strategy aims to unlock value through improved marketing and optimal timing of the exit, without the need for additional development works.",
+          "location": "C/CAN PUIG 41"
+        },
+        "ca": {
+          "name": "SON SERVERA",
+          "description": "Adquisició d’un actiu residencial a Son Servera, consistent en un edifici plurifamiliar en una fase de desenvolupament paralitzada. Ubicat en una zona residencial consolidada amb demanda estable, l’oportunitat se centra en el reposicionament i la revenda després de l’estabilització de l’actiu. El projecte es basa en l’adquisició i la posterior venda de l’actiu, capitalitzant ineficiències de preu i el reposicionament en el mercat. L’estratègia s’enfoca a desbloquejar valor mitjançant una millor comercialització i el moment de sortida, sense necessitat d’obres addicionals de desenvolupament.",
+          "location": "C/CAN PUIG 41"
+        },
+        "de": {
+          "name": "SON SERVERA",
+          "description": "Erwerb eines Wohnobjekts in Son Servera in Form eines Mehrfamiliengebäudes, dessen Entwicklung zum Stillstand gekommen ist. In einer etablierten Wohnlage mit stabiler Nachfrage liegt der Fokus der Gelegenheit auf Neupositionierung und Weiterverkauf nach Stabilisierung des Objekts. Das Projekt basiert auf dem Ankauf und anschließenden Verkauf, um Preisineffizienzen und die Neupositionierung im Markt zu nutzen. Ziel ist es, durch bessere Vermarktung und den optimalen Exit-Zeitpunkt Wert zu heben, ohne zusätzliche Entwicklungsarbeiten.",
+          "location": "C/CAN PUIG 41"
+        }
+      }
     }
   ]
 }
