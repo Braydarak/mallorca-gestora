@@ -1,4 +1,3 @@
-import heroImg from "../../assets/hero.png";
 
 type PillProps = {
   title: string;
@@ -45,9 +44,9 @@ export default function AboutUs() {
 
           <div className="grid gap-6">
             <img
-              src={heroImg}
+              src="./img.jpeg"
               alt=""
-              className="h-56 w-full rounded-2xl object-cover shadow-sm sm:h-72"
+              className="h-56 w-full rounded-2xl shadow-sm sm:h-72"
               style={{ objectPosition: "50% 40%" }}
               draggable={false}
             />
