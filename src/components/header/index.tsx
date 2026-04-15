@@ -22,16 +22,16 @@ export default function Header() {
 
   const leftItems = useMemo<NavItem[]>(
     () => [
-      { label: "Inicio", href: "#" },
-      { label: "Servicios", href: "#" },
+      { label: "Oportunidades", href: "#investment" },
+      { label: "Proyectos", href: "#projects" },
     ],
     [],
   );
 
   const rightItems = useMemo<NavItem[]>(
     () => [
-      { label: "Sobre Nosotros", href: "#" },
-      { label: "Contacto", href: "#" },
+      { label: "Sobre Nosotros", href: "#about-us" },
+      { label: "Contacto", href: "#contact" },
     ],
     [],
   );

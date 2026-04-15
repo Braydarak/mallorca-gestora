@@ -2,9 +2,17 @@ type ProjectCardProps = {
   name: string;
   description: string;
   image?: string;
+  href?: string;
+  ctaLabel?: string;
 };
 
-export function ProjectCard({ name, description, image }: ProjectCardProps) {
+export function ProjectCard({
+  name,
+  description,
+  image,
+  href,
+  ctaLabel = "Ver proyecto",
+}: ProjectCardProps) {
   const shortDescription =
     description.length > 190
       ? `${description.slice(0, 190).trimEnd()}...`
@@ -40,12 +48,21 @@ export function ProjectCard({ name, description, image }: ProjectCardProps) {
         </p>
 
         <div className="mt-auto pt-6">
-          <button
-            type="button"
-            className="inline-flex w-full cursor-pointer items-center justify-center rounded-lg border border-[#364f38]/25 bg-[#364f38] px-5 py-3 text-base font-semibold text-white transition hover:bg-[#2f4431] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#364f38]/40"
-          >
-            Ver proyecto
-          </button>
+          {href ? (
+            <a
+              href={href}
+              className="inline-flex w-full cursor-pointer items-center justify-center rounded-lg border border-[#364f38]/25 bg-[#364f38] px-5 py-3 text-base font-semibold text-white transition hover:bg-[#2f4431] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#364f38]/40"
+            >
+              {ctaLabel}
+            </a>
+          ) : (
+            <button
+              type="button"
+              className="inline-flex w-full cursor-pointer items-center justify-center rounded-lg border border-[#364f38]/25 bg-[#364f38] px-5 py-3 text-base font-semibold text-white transition hover:bg-[#2f4431] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#364f38]/40"
+            >
+              {ctaLabel}
+            </button>
+          )}
         </div>
       </div>
     </article>

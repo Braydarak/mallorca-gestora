@@ -26,14 +26,23 @@ function MarketPoint({ title, description, index }: MarketPointProps) {
 
 export default function State() {
   return (
-    <section id="market" className="w-full bg-white">
-      <div className="mx-auto max-w-[1126px] px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+    <section
+      id="market"
+      className="relative w-full overflow-hidden bg-[#364f38] text-white"
+    >
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute -top-24 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-white/12 blur-3xl" />
+        <div className="absolute -bottom-28 -left-24 h-[380px] w-[380px] rounded-full bg-black/15 blur-3xl" />
+        <div className="absolute -bottom-32 -right-24 h-[440px] w-[440px] rounded-full bg-white/10 blur-3xl" />
+      </div>
+
+      <div className="relative mx-auto max-w-[1126px] px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="mx-auto max-w-5xl">
           <div className="flex flex-col items-center gap-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-[#364f38] sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Mercado inmobiliario español
             </h2>
-            <p className="max-w-3xl text-base leading-relaxed text-slate-700 sm:text-lg">
+            <p className="max-w-3xl text-base leading-relaxed text-white/90 sm:text-lg">
               Factores clave que impulsan la creación de valor a largo plazo en
               España, con un enfoque estratégico en las Islas Baleares.
             </p>
