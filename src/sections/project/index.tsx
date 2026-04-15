@@ -148,6 +148,7 @@ export default function ProjectSection() {
                 name={project.name}
                 description={project.description}
                 image={project.image}
+                href={`#/project/${project.id}`}
               />
             ))}
           </div>

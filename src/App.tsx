@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Home from "./pages/home";
 import InvestmentDetails from "./pages/investmentDetails";
+import ProjectDetails from "./pages/projectDetails";
 import "./App.css";
 
 function App() {
@@ -17,18 +18,23 @@ function App() {
     };
   }, []);
 
-  const match = hash.match(/^#\/investment\/(\d+)(?:\/)?$/);
-  const investmentId = match ? Number(match[1]) : null;
+  const investmentMatch = hash.match(/^#\/investment\/(\d+)(?:\/)?$/);
+  const investmentId = investmentMatch ? Number(investmentMatch[1]) : null;
+
+  const projectMatch = hash.match(/^#\/project\/(\d+)(?:\/)?$/);
+  const projectId = projectMatch ? Number(projectMatch[1]) : null;
 
   useEffect(() => {
-    if (investmentId === null) return;
+    if (investmentId === null && projectId === null) return;
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [investmentId]);
+  }, [investmentId, projectId]);
 
   return (
     <>
       <Header />
-      {investmentId ? (
+      {projectId ? (
+        <ProjectDetails projectId={projectId} />
+      ) : investmentId ? (
         <InvestmentDetails opportunityId={investmentId} />
       ) : (
         <Home />
