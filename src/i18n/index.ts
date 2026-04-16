@@ -215,6 +215,56 @@ const resources = {
         },
         copyright: "© {{year}} Mallorca Gestora",
       },
+      cookies: {
+        title: "Política de cookies",
+        loadingDocument: "Cargando documento…",
+        loadError: "No se pudo cargar el documento de cookies.",
+      },
+      legalNotice: {
+        title: "Aviso legal",
+        loadingDocument: "Cargando documento…",
+        loadError: "No se pudo cargar el documento de aviso legal.",
+      },
+      privacy: {
+        title: "Política de privacidad",
+        intro:
+          "En Mallorca Gestora de Capital nos comprometemos a proteger tus datos personales y a tratar la información de forma segura y transparente.",
+        controllerTitle: "Responsable del tratamiento",
+        controllerText:
+          "El responsable del tratamiento es Mallorca Gestora de Capital. Podés contactarnos a través de los canales publicados en este sitio.",
+        purposesTitle: "Finalidades del tratamiento",
+        purposesText:
+          "Tratamos tus datos para gestionar consultas, coordinar reuniones, responder solicitudes y mejorar la atención al usuario.",
+        legalBasisTitle: "Base legal",
+        legalBasisText:
+          "La base legal puede ser tu consentimiento, la ejecución de medidas precontractuales o nuestro interés legítimo en atender tu solicitud.",
+        recipientsTitle: "Destinatarios",
+        recipientsText:
+          "No cedemos tus datos a terceros salvo obligación legal o cuando sea necesario para prestar el servicio, aplicando las garantías correspondientes.",
+        rightsTitle: "Derechos",
+        rightsText:
+          "Podés solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos, según corresponda.",
+        retentionTitle: "Conservación",
+        retentionText:
+          "Conservaremos tus datos durante el tiempo necesario para cumplir la finalidad para la que fueron recabados y para atender obligaciones legales.",
+        cookiesTitle: "Cookies",
+        cookiesText: "Para más información consultá nuestra",
+        dataCategoriesTitle: "Categorías de datos",
+        dataCategoriesText:
+          "Podemos tratar datos identificativos y de contacto, así como información que nos brindes en tus mensajes.",
+        securityTitle: "Seguridad",
+        securityText:
+          "Aplicamos medidas técnicas y organizativas para proteger la información y evitar accesos no autorizados.",
+        userResponsibilitiesTitle: "Responsabilidad del usuario",
+        userResponsibilitiesText:
+          "El usuario declara que los datos proporcionados son veraces y se compromete a mantenerlos actualizados.",
+        contactTitle: "Contacto",
+        contactText:
+          "Para ejercer tus derechos o realizar consultas sobre privacidad, escribinos mediante el formulario de contacto.",
+        changesTitle: "Cambios en la política",
+        changesText:
+          "Podemos actualizar esta política para reflejar cambios legales o de funcionamiento. La versión vigente estará disponible en este sitio.",
+      },
       investmentDetails: {
         loading: "Cargando oportunidad...",
         back: "Volver",
@@ -496,6 +546,56 @@ const resources = {
         },
         copyright: "© {{year}} Mallorca Gestora",
       },
+      cookies: {
+        title: "Cookie policy",
+        loadingDocument: "Loading document…",
+        loadError: "The cookie policy document could not be loaded.",
+      },
+      legalNotice: {
+        title: "Legal notice",
+        loadingDocument: "Loading document…",
+        loadError: "The legal notice document could not be loaded.",
+      },
+      privacy: {
+        title: "Privacy policy",
+        intro:
+          "At Mallorca Gestora de Capital we are committed to protecting your personal data and processing information securely and transparently.",
+        controllerTitle: "Data controller",
+        controllerText:
+          "The data controller is Mallorca Gestora de Capital. You can contact us through the channels published on this website.",
+        purposesTitle: "Purposes of processing",
+        purposesText:
+          "We process your data to handle inquiries, coordinate meetings, respond to requests, and improve user support.",
+        legalBasisTitle: "Legal basis",
+        legalBasisText:
+          "The legal basis may be your consent, pre-contractual measures, or our legitimate interest in responding to your request.",
+        recipientsTitle: "Recipients",
+        recipientsText:
+          "We do not share your data with third parties except when legally required or when necessary to provide the service, applying appropriate safeguards.",
+        rightsTitle: "Your rights",
+        rightsText:
+          "You may request access, rectification, erasure, objection, restriction, and data portability, as applicable.",
+        retentionTitle: "Retention",
+        retentionText:
+          "We will keep your data for as long as necessary to fulfill the purpose for which it was collected and to meet legal obligations.",
+        cookiesTitle: "Cookies",
+        cookiesText: "For more information, please see our",
+        dataCategoriesTitle: "Data categories",
+        dataCategoriesText:
+          "We may process identification and contact data, as well as information you provide in your messages.",
+        securityTitle: "Security",
+        securityText:
+          "We apply technical and organizational measures to protect information and prevent unauthorized access.",
+        userResponsibilitiesTitle: "User responsibilities",
+        userResponsibilitiesText:
+          "You confirm that the data provided is accurate and you commit to keeping it up to date.",
+        contactTitle: "Contact",
+        contactText:
+          "To exercise your rights or ask privacy-related questions, contact us via the contact form.",
+        changesTitle: "Policy changes",
+        changesText:
+          "We may update this policy to reflect legal or operational changes. The current version will be available on this website.",
+      },
       investmentDetails: {
         loading: "Loading opportunity...",
         back: "Back",
@@ -775,6 +875,56 @@ const resources = {
           privacy: "Privacitat",
         },
         copyright: "© {{year}} Mallorca Gestora",
+      },
+      cookies: {
+        title: "Política de galetes",
+        loadingDocument: "Carregant document…",
+        loadError: "No s’ha pogut carregar el document de galetes.",
+      },
+      legalNotice: {
+        title: "Avís legal",
+        loadingDocument: "Carregant document…",
+        loadError: "No s’ha pogut carregar el document d’avís legal.",
+      },
+      privacy: {
+        title: "Política de privacitat",
+        intro:
+          "A Mallorca Gestora de Capital ens comprometem a protegir les teves dades personals i a tractar la informació de manera segura i transparent.",
+        controllerTitle: "Responsable del tractament",
+        controllerText:
+          "El responsable del tractament és Mallorca Gestora de Capital. Pots contactar-nos a través dels canals publicats en aquest lloc web.",
+        purposesTitle: "Finalitats del tractament",
+        purposesText:
+          "Tractem les teves dades per gestionar consultes, coordinar reunions, respondre sol·licituds i millorar l’atenció a l’usuari.",
+        legalBasisTitle: "Base legal",
+        legalBasisText:
+          "La base legal pot ser el teu consentiment, mesures precontractuals o el nostre interès legítim a atendre la teva sol·licitud.",
+        recipientsTitle: "Destinataris",
+        recipientsText:
+          "No cedim les teves dades a tercers excepte obligació legal o quan sigui necessari per prestar el servei, aplicant les garanties corresponents.",
+        rightsTitle: "Drets",
+        rightsText:
+          "Pots sol·licitar accés, rectificació, supressió, oposició, limitació i portabilitat de les teves dades, segons correspongui.",
+        retentionTitle: "Conservació",
+        retentionText:
+          "Conservarem les teves dades durant el temps necessari per complir la finalitat per a la qual es van recollir i per atendre obligacions legals.",
+        cookiesTitle: "Cookies",
+        cookiesText: "Per a més informació, consulta la nostra",
+        dataCategoriesTitle: "Categories de dades",
+        dataCategoriesText:
+          "Podem tractar dades identificatives i de contacte, així com informació que ens facilitis als teus missatges.",
+        securityTitle: "Seguretat",
+        securityText:
+          "Apliquem mesures tècniques i organitzatives per protegir la informació i evitar accessos no autoritzats.",
+        userResponsibilitiesTitle: "Responsabilitat de l’usuari",
+        userResponsibilitiesText:
+          "L’usuari declara que les dades proporcionades són veraces i es compromet a mantenir-les actualitzades.",
+        contactTitle: "Contacte",
+        contactText:
+          "Per exercir els teus drets o fer consultes sobre privacitat, contacta’ns mitjançant el formulari de contacte.",
+        changesTitle: "Canvis a la política",
+        changesText:
+          "Podem actualitzar aquesta política per reflectir canvis legals o operatius. La versió vigent estarà disponible en aquest lloc web.",
       },
       investmentDetails: {
         loading: "Carregant oportunitat...",
@@ -1056,6 +1206,56 @@ const resources = {
           privacy: "Datenschutz",
         },
         copyright: "© {{year}} Mallorca Gestora",
+      },
+      cookies: {
+        title: "Cookie-Richtlinie",
+        loadingDocument: "Dokument wird geladen…",
+        loadError: "Das Cookie-Dokument konnte nicht geladen werden.",
+      },
+      legalNotice: {
+        title: "Impressum",
+        loadingDocument: "Dokument wird geladen…",
+        loadError: "Das Impressum-Dokument konnte nicht geladen werden.",
+      },
+      privacy: {
+        title: "Datenschutzerklärung",
+        intro:
+          "Bei Mallorca Gestora de Capital verpflichten wir uns, Ihre personenbezogenen Daten zu schützen und Informationen sicher sowie transparent zu verarbeiten.",
+        controllerTitle: "Verantwortlicher",
+        controllerText:
+          "Verantwortlicher für die Verarbeitung ist Mallorca Gestora de Capital. Sie können uns über die auf dieser Website veröffentlichten Kanäle kontaktieren.",
+        purposesTitle: "Zwecke der Verarbeitung",
+        purposesText:
+          "Wir verarbeiten Ihre Daten, um Anfragen zu bearbeiten, Termine zu koordinieren, auf Anliegen zu antworten und den Support zu verbessern.",
+        legalBasisTitle: "Rechtsgrundlage",
+        legalBasisText:
+          "Rechtsgrundlage können Ihre Einwilligung, vorvertragliche Maßnahmen oder unser berechtigtes Interesse an der Bearbeitung Ihrer Anfrage sein.",
+        recipientsTitle: "Empfänger",
+        recipientsText:
+          "Wir geben Ihre Daten nicht an Dritte weiter, außer bei gesetzlicher Verpflichtung oder wenn dies zur Leistungserbringung erforderlich ist, mit geeigneten Schutzmaßnahmen.",
+        rightsTitle: "Ihre Rechte",
+        rightsText:
+          "Sie können je nach Anwendbarkeit Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung und Datenübertragbarkeit verlangen.",
+        retentionTitle: "Speicherdauer",
+        retentionText:
+          "Wir speichern Ihre Daten so lange, wie es zur Erfüllung des Erhebungszwecks und zur Einhaltung gesetzlicher Pflichten erforderlich ist.",
+        cookiesTitle: "Cookies",
+        cookiesText: "Weitere Informationen finden Sie in unserer",
+        dataCategoriesTitle: "Datenkategorien",
+        dataCategoriesText:
+          "Wir können Identifikations- und Kontaktdaten sowie Informationen verarbeiten, die Sie uns in Ihren Nachrichten bereitstellen.",
+        securityTitle: "Sicherheit",
+        securityText:
+          "Wir setzen technische und organisatorische Maßnahmen ein, um Informationen zu schützen und unbefugten Zugriff zu verhindern.",
+        userResponsibilitiesTitle: "Pflichten der Nutzer",
+        userResponsibilitiesText:
+          "Sie bestätigen, dass die bereitgestellten Daten korrekt sind, und verpflichten sich, sie aktuell zu halten.",
+        contactTitle: "Kontakt",
+        contactText:
+          "Zur Ausübung Ihrer Rechte oder bei Fragen zum Datenschutz kontaktieren Sie uns über das Kontaktformular.",
+        changesTitle: "Änderungen",
+        changesText:
+          "Wir können diese Richtlinie aktualisieren, um rechtliche oder operative Änderungen widerzuspiegeln. Die aktuelle Version ist auf dieser Website verfügbar.",
       },
       investmentDetails: {
         loading: "Investitionschance wird geladen...",

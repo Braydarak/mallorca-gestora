@@ -4,6 +4,9 @@ import Footer from "./components/footer";
 import Home from "./pages/home";
 import InvestmentDetails from "./pages/investmentDetails";
 import ProjectDetails from "./pages/projectDetails";
+import CookiesPolicyPage from "./pages/cookies";
+import LegalNoticePage from "./pages/legalNotice";
+import PrivacyPolicyPage from "./pages/privacyPolicy";
 import "./App.css";
 
 function App() {
@@ -24,21 +27,33 @@ function App() {
   const projectMatch = hash.match(/^#\/project\/(\d+)(?:\/)?$/);
   const projectId = projectMatch ? Number(projectMatch[1]) : null;
 
+  const isLegalNoticePage = /^#\/aviso-legal(?:\/)?$/.test(hash);
+  const isCookiesPolicyPage = /^#\/politica-de-cookies(?:\/)?$/.test(hash);
+  const isPrivacyPolicyPage = /^#\/privacidad(?:\/)?$/.test(hash);
+
   useEffect(() => {
-    if (investmentId === null && projectId === null) return;
+    if (!hash.startsWith("#/")) return;
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [investmentId, projectId]);
+  }, [hash]);
+
+  const content = projectId ? (
+    <ProjectDetails projectId={projectId} />
+  ) : investmentId ? (
+    <InvestmentDetails opportunityId={investmentId} />
+  ) : isLegalNoticePage ? (
+    <LegalNoticePage />
+  ) : isCookiesPolicyPage ? (
+    <CookiesPolicyPage />
+  ) : isPrivacyPolicyPage ? (
+    <PrivacyPolicyPage />
+  ) : (
+    <Home />
+  );
 
   return (
     <>
       <Header />
-      {projectId ? (
-        <ProjectDetails projectId={projectId} />
-      ) : investmentId ? (
-        <InvestmentDetails opportunityId={investmentId} />
-      ) : (
-        <Home />
-      )}
+      {content}
       <Footer />
     </>
   );

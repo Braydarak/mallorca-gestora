@@ -5,9 +5,9 @@ export default function Footer() {
   const { t } = useTranslation();
   const legalLinks = useMemo(
     () => [
-      { href: "#aviso-legal", label: t("footer.links.legalNotice") },
-      { href: "#politica-de-cookies", label: t("footer.links.cookiesPolicy") },
-      { href: "#privacidad", label: t("footer.links.privacy") },
+      { href: "#/aviso-legal", label: t("footer.links.legalNotice") },
+      { href: "#/politica-de-cookies", label: t("footer.links.cookiesPolicy") },
+      { href: "#/privacidad", label: t("footer.links.privacy") },
     ],
     [t],
   );
